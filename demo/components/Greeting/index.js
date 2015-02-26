@@ -3,7 +3,7 @@
 import React from 'react';
 import sx from '../../../src/stubs/sx';
 import styles from 'react-styles!./styles';
-import styleHelper from '../../../src/style-helpers';
+import styleHelper from '../../../dist';
 
 const Greeting = React.createClass({
 

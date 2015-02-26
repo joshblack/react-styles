@@ -4,6 +4,8 @@ WIP. Move along!
 
 React Styles looks to implement the best features of CSS using the best of React and JavaScript.
 
+## Usage
+
 ## Philosophy
 
 React Styles takes on the philosophy that CSS has incredibly useful ideas on how to style components in an application, but implementation details prevented these useful properties from being highly valued. For example, the cascade is a very useful tool that allows developers to have a baseline look throughout their application without having to explicity declare repeated styles. Unfortunately, you can never opt out of this cascade or change what the cascade is composed of. This ultimately leads to specificity wars and is the birthplace of `!important` due to its nature.
@@ -13,9 +15,9 @@ By harnessing the power of React's `context` feature, React Styles is able to pr
 # TODO
 
 - Build
-    - [ ] Create Gulpfile to handle bundling src into module for users to require
-    - [ ] Update `package.json` to handle actual project dependencies instead of demo dependencies
-    - [ ] Update `demo/package.json` to properly show it as the demo package dependencies
+    - [x] Create Gulpfile to handle bundling src into module for users to require
+    - [x] Update `package.json` to handle actual project dependencies instead of demo dependencies
+    - [x] Update `demo/package.json` to properly show it as the demo package dependencies
 - Appearance
     - [ ] Need to create either a DSL or a better way of writing styles without using quotes everywhere
 - Restrictions
