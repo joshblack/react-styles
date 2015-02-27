@@ -30,3 +30,7 @@ By harnessing the power of React's `context` feature, React Styles is able to pr
     - [ ] Abstract away from webpack? ie add to gulp, grunt
 - Testing
     - [ ] Write tests for media query styles to make sure that they are valid when I expect them to be
+- Demos
+    - [ ] Add Demo for context switching
+- Project Specific
+    - [ ] Move TODO items into repo issues to get used to that workflow
