@@ -19,7 +19,7 @@ By harnessing the power of React's `context` feature, React Styles is able to pr
     - [x] Update `package.json` to handle actual project dependencies instead of demo dependencies
     - [x] Update `demo/package.json` to properly show it as the demo package dependencies
 - Appearance
-    - [ ] Need to create either a DSL or a better way of writing styles without using quotes everywhere
+    - [x] Need to create either a DSL or a better way of writing styles without using quotes everywhere
 - Restrictions
     - [ ] Need to restrict way you can write styles, or at least provide warnings for nesting too deep
     - Questions to ask:
