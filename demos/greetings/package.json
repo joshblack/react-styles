@@ -11,7 +11,7 @@
     "babel-core": "^4.4.6",
     "babel-loader": "^4.0.0",
     "react": "^0.12.2",
-    "react-styles-loader": "0.0.2",
+    "react-styles-loader": "0.0.5",
     "webpack": "^1.6.0"
   }
 }

@@ -1,9 +1,9 @@
 'use strict';
 
 import React from 'react';
-import sx from '../../../src/stubs/sx';
+import sx from '../../../../dist/stubs/sx';
 import styles from 'react-styles!./styles';
-import styleHelper from '../../../dist';
+import styleHelper from '../../../../index';
 
 const Greeting = React.createClass({
 

@@ -9,7 +9,7 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('babel', ['clean'], function () {
-    return gulp.src('src/**/*.js')
+    return gulp.src(['src/**/*.js', '!src/**/__tests__/**/**.**'])
         .pipe(babel())
         .pipe(gulp.dest('dist'));
 });

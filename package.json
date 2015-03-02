@@ -4,7 +4,18 @@
   "description": "Sensible Styles in React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testPathDirs": ["src"],
+    "testFileExtensions": [
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ]
   },
   "author": "Josh Black <joshuatblack@ufl.edu>",
   "devDependencies": {
@@ -12,5 +23,10 @@
     "gulp": "^3.8.11",
     "gulp-babel": "^4.0.0",
     "lodash": "^3.3.1"
+  },
+  "dependencies": {
+    "babel-jest": "^4.0.0",
+    "core-js": "^0.6.1",
+    "jest-cli": "^0.4.0"
   }
 }
