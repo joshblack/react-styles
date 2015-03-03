@@ -2,6 +2,6 @@
 
 var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
 
-var ReactStyles = _interopRequire(require("./core"));
+var styleHelper = _interopRequire(require("./core"));
 
-module.exports = ReactStyles;
+module.exports = styleHelper;

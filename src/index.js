@@ -1,5 +1,5 @@
 'use strict';
 
-import ReactStyles from './core';
+import styleHelper from './core';
 
-export default ReactStyles;
+export default styleHelper;
