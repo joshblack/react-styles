@@ -1,5 +1,7 @@
 WIP. Move along!
 
+[![Circle CI](https://circleci.com/gh/joshblack/react-styles.svg?style=svg)](https://circleci.com/gh/joshblack/react-styles)
+
 # React Styles
 
 React Styles looks to implement the best features of CSS using the best of React and JavaScript.
