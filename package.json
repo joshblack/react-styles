@@ -1,6 +1,6 @@
 {
   "name": "react-styles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sensible Styles in React",
   "main": "index.js",
   "scripts": {
@@ -33,11 +33,11 @@
     "gulp-babel": "^4.0.0",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^0.6.6",
-    "lodash": "^3.3.1"
-  },
-  "dependencies": {
     "babel-jest": "^4.0.0",
     "core-js": "^0.6.1",
     "jest-cli": "^0.4.0"
+  },
+  "dependencies": {
+    "lodash": "^3.3.1"
   }
 }

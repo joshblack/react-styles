@@ -15,7 +15,8 @@ var findStyleContext = _interopRequire(require("./findStyleContext"));
  * @param  {Object}  context  The state of the world, or the context of the component
  * @return {Object}           An object of valid for the given context
  */
-function styleHelper(styles, context) {
+function styleHelper(styles) {
+  var context = arguments[1] === undefined ? {} : arguments[1];
 
   return _.mapValues(styles, function (style) {
 

@@ -10,7 +10,7 @@ import findStyleContext from './findStyleContext';
  * @param  {Object}  context  The state of the world, or the context of the component
  * @return {Object}           An object of valid for the given context
  */
-function styleHelper(styles, context) {
+function styleHelper(styles, context = {}) {
 
   return _.mapValues(styles, (style) => {
 

@@ -1,4 +1,4 @@
-WIP. Move along!
+No longer under development after seeing the `radium` project. Take a look at [here](https://github.com/FormidableLabs/radium).
 
 # React Styles
 
